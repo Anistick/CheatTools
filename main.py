@@ -10,6 +10,8 @@ from colorama import init, Fore as fore
 # CAPYBARA WAS HERE #
 #####################
 
+init()
+
 type.typewrite(f'{fore.LIGHTYELLOW_EX}Welcome to CheatTools! Please select an option to continue. CheatTools is meant for Windows.', ['.', '!', ','])
 
 def chs():
