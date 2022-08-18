@@ -1,7 +1,6 @@
 import typewrite as type
 from apps.ibdw import ibdw_Exec
 import time
-import replit as rep
 import os
 from colorama import init, Fore as fore
 
@@ -29,8 +28,8 @@ def chs():
     print('Invalid choice!')
     time.sleep(1)
     chs()
-    rep.clear()
+    os.system("cls")
   elif choice == '1':
     ibdw_Exec()
-    rep.clear()
+    os.system("cls")
 chs()
