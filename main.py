@@ -4,11 +4,9 @@ import time
 import os
 from colorama import init, Fore as fore
 
-#####################
-# CAPYBARA WAS HERE #
-# CAPYBARA WAS HERE #
-# CAPYBARA WAS HERE #
-#####################
+#######################
+## CAPYBARA WAS HERE ##
+#######################
 
 init()
 
